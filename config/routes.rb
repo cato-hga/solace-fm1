@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'welcome#home'
+
   namespace :admin do
     get '/', to: redirect('/admin/people')
   end

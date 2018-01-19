@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Twitter Bootstrap
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+
 # CMS Gem
 gem 'fae-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
